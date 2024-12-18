@@ -1,0 +1,7 @@
+{
+    "attendanceData": [
+        { "label":"Present","value":75},
+        { "label": "Absent", "value":25}
+    ]
+    
+}

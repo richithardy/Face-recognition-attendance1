@@ -1,0 +1,59 @@
+# *Face Recognition-Based Attendance System Interface Development*
+
+This project develops a user interface for a *Face Recognition-Based Attendance System* that visualizes attendance data using a *Pie Chart* and displays key attendance metrics.
+
+---
+
+### *Project Overview*
+
+The system performs two key tasks:  
+1. *Data Visualization: Displays attendance statistics using **Chart.js* in a *Pie Chart* format.  
+2. *Attendance Management: Interface designed to integrate with a face recognition module for tracking **Present* and *Absent* status.
+
+---
+
+### *What I Did*
+
+1. **Created index.html**  
+   - Added a <canvas> element to render the attendance Pie Chart.  
+   - Linked:  
+     - Chart.js library for chart rendering.  
+     - script.js for dynamic behavior and data fetching.  
+     - style.css for UI styling.  
+
+2. **Created data.json**  
+   - Used as a placeholder for attendance data fetched dynamically.  
+   - Example Structure:  
+     json
+     [
+       { "label": "Present", "value": 75 },
+       { "label": "Absent", "value": 25 }
+     ]
+     
+
+3. **Created script.js**  
+   - *Fetch JSON Data*: Used fetch() to load attendance data.  
+   - *Data Processing*: Extracted labels and values (e.g., Present and Absent).  
+   - *Chart Rendering: Used Chart.js to display attendance as a **Pie Chart*.  
+
+4. *Created style.css**  
+   - Styled the chart container.  
+   - Made the interface clean and responsive.  
+
+---
+
+### *Technologies Used*
+- *HTML*: For interface structure.  
+- *CSS*: For styling the user interface.  
+- *JavaScript*: To fetch JSON data and process the chart logic.  
+- *Chart.js*: A JavaScript library for chart generation.  
+- *JSON*: Data source for attendance records.
+
+
+### *Final Output*
+
+The interface displays:  
+- *Pie Chart* with attendance status (e.g., Present and Absent).  
+- Dynamic *labels* and *values* fetched from data.json.  
+- Ready to integrate with a *Face Recognition System* for real-time attendance tracking.
+
